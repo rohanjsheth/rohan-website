@@ -2,7 +2,7 @@ import Body from './components/homebody.tsx'
 import Header from './components/header.tsx'
 import Footer from './components/footer.tsx'
 
-function App() {
+function About() {
   return (
     <div className="flex min-h-screen flex-col">
       <div className="flex min-h-[20vh] flex-col items-center justify-center">
@@ -18,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export default About
