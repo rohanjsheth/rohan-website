@@ -9,12 +9,20 @@ h1 {
   color: #3d2b22;
 }
 
- h2, h3 {
+h2, h3 {
   font-family: "GFS Didot";
   font-weight: 700;
-  font-size: 1.75em;
+  font-size: 2.5em;
   color: #3d2b22;
-  
+  display: inline-block;
+  background: linear-gradient(180deg, transparent 30%, rgba(244, 217, 160, 0.6) 70%);
+  line-height: 1.2;
+  margin-bottom: 0.4em;
+  transition: transform 0.3s ease;
+}
+
+h2:hover {
+  transform: rotate(2.5deg);
 }
 
 a {
@@ -22,6 +30,10 @@ a {
   font-weight: 400;
   font-size: 1.25 em;
   color: #00c1ed;
+}
+
+a:hover{
+  color: #007690;
 }
 
 #links a{
