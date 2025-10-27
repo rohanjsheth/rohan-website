@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -28,7 +28,7 @@ h2:hover {
 a {
     font-family: "Lato";
     font-weight: 400;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     color: #00c1ed;
 }
 
@@ -60,11 +60,3 @@ footer {
 body {
     background-color: #fff6ea;
 }
-
-/* Mobile styles - all text blue */
-@media (max-width: 768px) {
-    h1, h2, h3, a, #links a, main, footer {
-        color: blue !important;
-    }
-}
-
