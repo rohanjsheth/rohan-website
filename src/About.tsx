@@ -8,7 +8,7 @@ function About() {
       <div className="flex min-h-[20vh] flex-col items-center justify-center">
         <Header />
       </div>
-      <div className="flex flex-1 items-center justify-center p-4 -mt-[20vh]">
+      <div className="flex flex-1 items-center justify-center p-4">
         <Body />
       </div>
       <footer>
