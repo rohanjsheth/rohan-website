@@ -1,2 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet');
 @import "tailwindcss";
 @import "tw-animate-css";
+
+h1 {
+  font-family: "GFS Didot";
+  font-weight: 700;
+  font-size: 2em;
+  color: #3d2b22;
+}
+
+ h2, h3 {
+  font-family: "GFS Didot";
+  font-weight: 700;
+  font-size: 1.75em;
+  color: #3d2b22;
+  
+}
+
+a {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.25 em;
+  color: #00c1ed;
+}
+
+#links a{
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 1em;
+  color: #3d2b22;
+}
+
+main {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 1.25em;
+  color: #3d2b22;
+}
+
+footer {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 0.75em;
+  color: #3d2b22;
+}
+
+body
+{
+  background-color: #fff6ea;
+}
