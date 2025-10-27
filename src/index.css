@@ -3,61 +3,68 @@
 @import "tw-animate-css";
 
 h1 {
-  font-family: "GFS Didot";
-  font-weight: 700;
-  font-size: 2em;
-  color: #3d2b22;
+    font-family: "GFS Didot";
+    font-weight: 700;
+    font-size: 2em;
+    color: #3d2b22;
 }
 
 h2, h3 {
-  font-family: "GFS Didot";
-  font-weight: 700;
-  font-size: 2.5em;
-  color: #3d2b22;
-  display: inline-block;
-  background: linear-gradient(180deg, transparent 30%, rgba(244, 217, 160, 0.6) 70%);
-  line-height: 1.2;
-  margin-bottom: 0.4em;
-  transition: transform 0.3s ease;
+    font-family: "GFS Didot";
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #3d2b22;
+    display: inline-block;
+    background: linear-gradient(180deg, transparent 30%, rgba(244, 217, 160, 0.6) 70%);
+    line-height: 1.2;
+    margin-bottom: 0.4em;
+    transition: transform 0.3s ease;
 }
 
 h2:hover {
-  transform: rotate(2.5deg);
+    transform: rotate(2.5deg);
 }
 
 a {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 1.25 em;
-  color: #00c1ed;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #00c1ed;
 }
 
-a:hover{
-  color: #007690;
+a:hover {
+    color: #007690;
 }
 
-#links a{
-  font-family: "Lato";
-  font-weight: 500;
-  font-size: 1em;
-  color: #3d2b22;
+#links a {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 1em;
+    color: #3d2b22;
 }
 
 main {
-  font-family: "Lato";
-  font-weight: 300;
-  font-size: 1.25em;
-  color: #3d2b22;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 1.25em;
+    color: #3d2b22;
 }
 
 footer {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 0.75em;
-  color: #3d2b22;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 0.75em;
+    color: #3d2b22;
 }
 
-body
-{
-  background-color: #fff6ea;
+body {
+    background-color: #fff6ea;
 }
+
+/* Mobile styles - all text blue */
+@media (max-width: 768px) {
+    h1, h2, h3, a, #links a, main, footer {
+        color: blue !important;
+    }
+}
+
